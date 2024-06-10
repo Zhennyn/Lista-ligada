@@ -5,6 +5,11 @@ public class No {
     private No proximo;
     private Object elemento;
 
+    public No(No proximo, Object elemento){
+        this.proximo = proximo;
+        this.elemento = elemento;
+    }
+
     public No(No proximo){
         this.proximo = proximo;
     }

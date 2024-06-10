@@ -32,7 +32,7 @@ public class CadastroCliente {
         System.out.println("Elemento removido da Lista Ligada");
         System.out.println(c);
         listaClientes.imprimeLista();
-        
+        // liberando toda a lista
         System.out.println("Liberando toda a lista");
         listaClientes.liberaLista();
         listaClientes.imprimeLista();
